@@ -1,0 +1,39 @@
+.Question {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+
+.Question h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.Question h5 {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.Question form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.Question button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+.Question button:hover {
+  background-color: #0056b3;
+}
